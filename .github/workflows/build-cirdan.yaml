@@ -1,0 +1,8 @@
+  build-cirdan:
+    name: "Build Cirdan on arche"
+    runs-on: arche
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cirdan build
+        run: docker-compose up -d
