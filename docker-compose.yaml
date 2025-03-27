@@ -1,0 +1,12 @@
+services:
+  sil-adapter:
+    image: sil-adapter:latest
+    ports:
+      - "5000:5000"
+    restart: always
+
+  melvin-ob:
+    image: melvin-ob:latest
+    ports:
+      - "22:1000"
+    restart: always
