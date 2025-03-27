@@ -1,3 +1,6 @@
+name: "Build and Run Cirdan"
+on: [push]
+jobs:
   build-cirdan:
     name: "Build Cirdan on arche"
     runs-on: arche
