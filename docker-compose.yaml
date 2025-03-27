@@ -8,5 +8,5 @@ services:
   melvin-ob:
     image: melvin-ob:latest
     ports:
-      - "22:1000"
+      - "1000:22"
     restart: always
