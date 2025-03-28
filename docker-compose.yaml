@@ -7,6 +7,4 @@ services:
 
   melvin-ob:
     image: melvin-ob:latest
-    ports:
-      - "1000:22"
     restart: always
