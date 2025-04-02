@@ -1,4 +1,5 @@
 # ⚓ Cirdan
+Named after *Círdan the Shipwright* from Tolkien’s legendarium — an ancient and wise figure responsible for building the vessels that sail beyond the world — this project acts as the orchestrator that launches and connects all parts of the MELVIN software system.
 
 In this repository you will find instructions on how to build our on-board software [melvin-ob](https://github.com/CIARC-CUIYC/melvin-ob) alongside our own SiL-Framework [Palantíri](https://github.com/CIARC-CUIYC/Palantiri) in an isolated Docker Compose Scenario for quick, platform-independent deployment, testing and debugging.
 
@@ -49,4 +50,4 @@ Before following the Setup instructions from this repository please make sure th
 > previous commands. If you start melvin-ob too early this will result in `HTTPResponseErrors`
 
 ## 📖 Further Resources
-For further information on how to use Palantiri or the on-board software melvin-ob please consult the corresponding repositories.
+For further information on how to use [Palantíri](https://github.com/CIARC-CUIYC/Palantiri) or the on-board software [melvin-ob](https://github.com/CIARC-CUIYC/melvin-ob) please consult the corresponding repositories.
