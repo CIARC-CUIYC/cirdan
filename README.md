@@ -39,14 +39,14 @@ Before following the Setup instructions from this repository please make sure th
    ```
 
 5. **Connect to melvin-ob and start the SuT**
-    > [!IMPORTANT]  
-    > The Palantiri Flask Webserver needs a few seconds too boot up. You can monitor this in the same terminal where you executed the 
-    > previous commands.
     ```bash
    docker exec -it cirdan-melvin-ob-1
    tmux attach
    ./melvin-bin
    ```
+> [!IMPORTANT]  
+> The Palantiri Flask Webserver needs a few seconds too boot up. You can monitor this in the same terminal where you executed the 
+> previous commands. If you start melvin-ob too early this will result in `HTTPResponseErrors`
 
 ## 📖 Further Resources
 For further information on how to use Palantiri or the on-board software melvin-ob please consult the corresponding repositories.
