@@ -1,3 +1,4 @@
+![CI](https://github.com/CIARC-CUIYC/cirdan/actions/workflows/build-cirdan.yaml/badge.svg)
 # ⚓ Cirdan
 Named after *Círdan the Shipwright* from Tolkien’s legendarium — an ancient and wise figure responsible for building the vessels that sail beyond the world — this project acts as the orchestrator that launches and connects all parts of the MELVIN software system.
 
