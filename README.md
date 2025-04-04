@@ -5,6 +5,7 @@ Named after *Círdan the Shipwright* from Tolkien’s legendarium — an ancient
 In this repository you will find instructions on how to build our on-board software [melvin-ob](https://github.com/CIARC-CUIYC/melvin-ob) alongside our own SiL-Framework [Palantíri](https://github.com/CIARC-CUIYC/Palantiri) in an isolated Docker Compose Scenario for quick, platform-independent deployment, testing and debugging.
 
 ---
+
 ## ✅ Dependencies
 Before following the Setup instructions from this repository please make sure that you have the following dependencies installed on your system:
 * Docker, please follow the official [instructions](https://docs.docker.com/engine/install/) for your target hardware.
@@ -21,7 +22,6 @@ Before following the Setup instructions from this repository please make sure th
     docker compose pull
     docker compose up
     ```
-
 5. **Connect to melvin-ob and start the SuT**
     ```bash
    docker exec -it cirdan-melvin-ob-1 bash
@@ -31,6 +31,8 @@ Before following the Setup instructions from this repository please make sure th
 > [!IMPORTANT]  
 > The Palantiri Flask Webserver needs a few seconds too boot up. You can monitor this in the same terminal where you executed the 
 > previous commands. If you start melvin-ob too early this will result in `HTTPResponseErrors`
+
+---
 
 ## 📖 Further Resources
 For further information on how to use [Palantíri](https://github.com/CIARC-CUIYC/Palantiri) or the on-board software [melvin-ob](https://github.com/CIARC-CUIYC/melvin-ob) please consult the corresponding repositories.
