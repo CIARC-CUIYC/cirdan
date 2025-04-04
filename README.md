@@ -11,34 +11,16 @@ Before following the Setup instructions from this repository please make sure th
 * Git for cloning the repositories, please follow the official [instructions](https://git-scm.com/downloads) for your target hardware
 
 ## 🔨 Setup Instructions
-
-1. **Clone the Palantiri repository**
-   ```bash
-   git clone  https://github.com/CIARC-CUIYC/Palantiri.git
-   cd Palantiri
-   ```
-
-2. **Build the Palantiri Docker image**
-    ```bash
-   docker build -t sil-adapter:latest .
-   ```
-
-2. **Clone the melvin-ob repository**
-   ```bash
-   git clone https://github.com/CIARC-CUIYC/melvin-ob.git
-   ```
-
-3. **Build the melvin-ob Docker image**
-   ```bash
-   docker build -t melvin-ob:latest .
-   ```
-
-4. **Clone the Cirdan repository and orchestrate**
+1. **Clone the Cirdan repository and orchestrate**
    ```bash
    git clone https://github.com/CIARC-CUIYC/cirdan.git
    cd cirdan
-   docker compose up
    ```
+2. **Execute Docker Application**
+    ```bash
+    docker compose pull
+    docker compose up
+    ```
 
 5. **Connect to melvin-ob and start the SuT**
     ```bash

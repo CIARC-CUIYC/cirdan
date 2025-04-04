@@ -1,10 +1,12 @@
 services:
-  sil-adapter:
-    image: sil-adapter:latest
+  palantiri:
+    image: ghcr.io/ciarc-cuiyc/cuiyc.palantiri:latest
+    container_name: palantiri_container
     ports:
       - "5000:5000"
     restart: always
 
-  melvin-ob:
-    image: melvin-ob:latest
+  melvin-ob-service:
+    image: ghcr.io/ciarc-cuiyc/cuiyc.melvin-ob:latest
+    container_name: melvin_container
     restart: always
