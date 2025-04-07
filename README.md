@@ -23,7 +23,7 @@ Before following the Setup instructions from this repository please make sure th
     ```
 5. **Connect to melvin-ob and start the SuT**
     ```bash
-   docker exec -it cirdan-melvin-ob-1 bash
+   docker exec -it melvin_container bash
    tmux attach
    ./melvin-bin
    ```
